@@ -12,12 +12,12 @@
       tags: ['always']
 
   roles:
-    - role: fabienlamarque.homebrew
+    - role: geerlingguy.homebrew
       tags: ['homebrew']
-    - role: fabienlamarque.dotfiles
+    - role: geerlingguy.dotfiles
       when: configure_dotfiles
       tags: ['dotfiles']
-    - role: fabienlamarque.mas
+    - role: geerlingguy.mas
       when: mas_installed_apps
       tags: ['mas']
 
